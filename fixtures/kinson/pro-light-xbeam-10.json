@@ -142,6 +142,7 @@
   },
   "availableChannels": {
     "Pan": {
+      "fineChannelAliases": ["Pan fine"],
       "defaultValue": 128,
       "capability": {
         "type": "Pan",
@@ -150,6 +151,7 @@
       }
     },
     "Tilt": {
+      "fineChannelAliases": ["Tilt fine"],
       "defaultValue": 128,
       "capability": {
         "type": "Tilt",
@@ -216,6 +218,7 @@
       ]
     },
     "Color Wheel": {
+      "fineChannelAliases": ["Color Wheel fine"],
       "defaultValue": 0,
       "capabilities": [
         {
@@ -1184,6 +1187,32 @@
         "Pan/Tilt Speed",
         "Control",
         "Color Wheel",
+        "No function",
+        "Gobo Wheel",
+        "Gobo Wheel Rotation",
+        "Gobo Wheel Rotation 2",
+        "Prism",
+        "Prism Rotation",
+        "Frost",
+        "Zoom",
+        "Focus",
+        "Shutter / Strobe",
+        "Dimmer"
+      ]
+    },
+    {
+      "name": "24 Channels",
+      "shortName": "24ch",
+      "channels": [
+        "Pan",
+        "Pan fine",
+        "Tilt",
+        "Tilt fine",
+        "Pan/Tilt Speed",
+        "Control",
+        "Color Wheel",
+        "Color Wheel fine",
+        "Effect speed",
         "No function",
         "Gobo Wheel",
         "Gobo Wheel Rotation",
